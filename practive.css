@@ -1,0 +1,647 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    gap: 5px 5px;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(3,3fr);
+    background-color: rgb(54, 61, 61);
+    
+}
+/*<<<----------------------------------------------------------------------- First box */
+.itemsa{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(2,2fr);   
+}
+
+.boxaa{
+    
+    border-radius: 3px;
+    background-color:rgb(252, 68, 1);     
+}
+
+.boxab{
+    background-color:  rgb(236, 100, 50);
+    border-radius: 3px;
+}
+
+.boxac{
+     background-color:  rgb(234, 134, 97);
+     border-radius: 3px;
+}
+
+.boxad{
+     background-color: rgb(20, 146, 117); 
+     border-radius: 3px;  
+}
+
+.boxae{
+    background-color: rgb(23, 205, 163); 
+    border-radius: 3px; 
+}
+
+.boxaf{
+     background-color: rgb(23, 205, 163);
+     border-radius: 3px;    
+}
+
+/*<<<------------------------------------------------------------------------ Second box */
+
+.itemsb{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(2,2fr);   
+}
+
+.boxba{
+    
+    border-radius: 3px;
+    background-color:rgb(252, 68, 1);
+    grid-column-start:1;
+    grid-column-end:3;         
+}
+
+.boxbb{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row: 1/3;
+    grid-column: 3/4;        
+}
+
+.boxbc{
+     background-color: rgb(20, 146, 117); 
+     border-radius: 3px;  
+}
+
+.boxbd{
+    background-color: rgb(23, 205, 163); 
+    border-radius: 3px; 
+}
+
+/* Third box --------------------------------------------------------------------------*/
+
+.itemsc{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(4,4fr);
+    grid-template-rows: repeat(4,4fr);   
+}
+.boxca{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-column-start:1;
+    grid-column-end:5;
+
+}
+
+.boxcb{
+    background-color: rgb(20, 146, 117);
+    border-radius: 3px;
+    grid-column:1/2;
+    grid-row:2/4;
+}
+
+.boxcc{
+     background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:2/4;
+    grid-column:2/5;
+}
+
+.boxcd{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:4/5;
+    grid-column:1/5;
+}
+
+/* Fourth box --------------------------------------------------------------------------*/
+
+.itemsd{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(6,6fr);
+    grid-template-rows: repeat(6,6fr);   
+}
+.boxda{
+    background-color:  rgb(236, 100, 50);
+    border-radius: 3px;
+    grid-row:1/3;
+    grid-column:1/4;
+}
+
+.boxdb{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:1/3;
+    grid-column:4/7;
+}
+
+.boxdc{
+     background-color: rgb(20, 146, 117);
+    border-radius: 3px;
+    grid-row:3/6;
+    grid-column:1/3;
+}
+
+.boxdd{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:3/6;
+    grid-column:3/7;
+}
+
+.boxde{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:6/7;
+    grid-column:1/7;
+}
+
+/* Fivth box --------------------------------------------------------------------------*/
+
+.itemse{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(6,6fr);
+    grid-template-rows: repeat(3,3fr);   
+}  
+
+.boxea{
+    background-color: rgb(20, 146, 117); 
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:1/2;
+}
+
+.boxeb{
+    background-color:  rgb(236, 100, 50);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:2/3;
+}
+
+.boxec{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:3/4;
+}
+
+.boxed{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:4/5;
+}
+
+.boxee{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:5/6;
+}
+
+.boxef{
+    background-color:  rgb(236, 100, 50);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:6/7;
+}
+
+.boxeg{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:1/2;
+}
+
+.boxeh{
+    background-color: rgb(20, 146, 117); 
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:2/3;
+}
+
+.boxei{
+    background-color:  rgb(236, 100, 50);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:3/4;
+}
+
+.boxej{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:4/5;
+}
+
+.boxek{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:5/6;
+}
+
+.boxel{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:6/7;
+}
+
+.boxem{
+    background-color: rgb(20, 146, 117); 
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:1/2;
+}
+
+.boxen{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:2/3;
+}
+
+.boxeo{
+     background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:3/4;
+}
+
+.boxep{
+     background-color:  rgb(236, 100, 50);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:4/5;
+}
+
+.boxeq{
+    background-color: rgb(20, 146, 117); 
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:5/6;
+}
+
+.boxer{
+   background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:6/7;
+}
+/* Sixth box --------------------------------------------------------------------------*/
+.itemsf{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(4,4fr);
+    grid-template-rows: repeat(5,5fr);   
+}
+
+.boxfa{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:1/3;
+}
+
+.boxfb{
+    background-color: rgb(20, 146, 117);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:3/4;
+}
+
+.boxfc{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:4/5;
+}
+
+.boxfd{
+    background-color:  rgb(236, 100, 50);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:1/2;
+}
+
+.boxfe{
+    background-color: rgb(20, 146, 117);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:2/3;
+}
+
+.boxff{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:3/4;
+}
+
+.boxfg{
+   background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:4/5;
+}
+
+.boxfh{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:3/5;
+    grid-column:1/3;
+}
+
+.boxfi{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:3/4;
+}
+
+.boxfj{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:4/5;
+}
+
+.boxfk{
+    background-color: rgb(20, 146, 117);
+    border-radius: 3px;
+    grid-row:4/5;
+    grid-column:3/4;
+}
+
+.boxfl{
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    grid-row:4/5;
+    grid-column:4/5;
+}
+
+.boxfm{
+   background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:5/6;
+    grid-column:1/4;
+}
+
+.boxfn{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:5/6;
+    grid-column:4/5;
+}
+/* Seventh box --------------------------------------------------------------------------*/
+.itemsg{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(4,4fr);
+    grid-template-rows: repeat(3,3fr);   
+}
+
+.boxga{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:1/3;
+}
+
+.boxgb{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:3/5;
+}
+
+.boxgc{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:2/4;
+    grid-column:1/3;
+}
+
+.boxgd{
+    background-color: rgb(20, 146, 117);
+    border-radius: 3px;
+    grid-row:2/4;
+    grid-column:3/5;
+}
+
+.boxge{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:3/5;
+    padding: 5px;
+}
+
+.boxgf{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:3/4;
+    padding: 5px;
+}
+
+.boxgg{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:4/5;
+    padding: 5px;
+}
+/* Eighth box --------------------------------------------------------------------------*/
+
+.itemsh{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(5,5fr);
+    grid-template-rows: repeat(3,3fr);   
+}
+
+.boxha{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:1/2;
+    padding: 5px;
+}
+
+.boxhb{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:2/3;
+    padding: 5px;
+}
+
+.boxhc{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:3/4;
+    padding: 5px;
+}
+
+.boxhd{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:4/5;
+    padding: 5px;
+}
+
+.boxhe{
+    background-color: rgb(20, 146, 117);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:5/6;
+    padding: 5px;
+}
+
+.boxhf{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:1/2;
+    padding: 5px;
+}
+
+.boxhg{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:2/3;
+    padding: 5px;
+}
+
+.boxhh{
+    background-color:  rgb(236, 100, 50);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:3/6;
+    padding: 5px;
+}
+
+.boxhi{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:1/6;
+    padding: 5px;
+}
+
+/* nineth box --------------------------------------------------------------------------*/
+
+.itemsi{ 
+    display: grid;
+    padding: 4px;
+    gap: 2px 2px;
+    border-radius: 2.5px;
+    background-color: antiquewhite;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: repeat(3,3fr);   
+}
+
+.boxia{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:1/2;
+    grid-column:1/4;
+    padding: 5px;
+}
+
+.boxib{
+    background-color: rgb(20, 146, 117);
+    border-radius: 3px;
+    grid-row:2/4;
+    grid-column:1/2;
+    padding: 5px;
+}
+
+.boxic{
+    background-color: rgb(23, 205, 163);
+    border-radius: 3px;
+    grid-row:2/3;
+    grid-column:2/4;
+    padding: 5px;
+}
+
+.boxid{
+    background-color:rgb(252, 68, 1);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:2/3;
+    padding: 5px;
+}
+
+.boxie{
+    background-color:  rgb(234, 134, 97);
+    border-radius: 3px;
+    grid-row:3/4;
+    grid-column:3/4;
+    padding: 5px;
+}
+/* end--------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
